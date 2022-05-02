@@ -1,7 +1,7 @@
 """Verify the library top-level functionality."""
-import pyproject
+import seleniumapps
 
 
 def test_version():
     """Verify we have updated the package version."""
-    assert pyproject.__version__ == "2021.3.0.dev0"
+    assert seleniumapps.__version__ == "2022.1.0"

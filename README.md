@@ -1,12 +1,11 @@
-# python-project
+# seleniumapps
 
-A template for your Python project. It uses Poetry as a dependency manager and
-Apache 2.0 as its license.
+A collection of apps that the use Selenium library.
 
 ## Installation of dependencies
 
-Dependencies are managed by [poetry][poetry], so poetry should be installed
-in the system. In the project root directory,  execute
+Dependencies are managed by [poetry][poetry], so poetry should be installed in
+the system. In the project root directory, execute
 
 ```shell
 poetry install
@@ -24,4 +23,5 @@ Omar Abel Rodríguez López, [https://github.com/oarodriguez][gh-oarodriguez]
 [comment]: <> (---)
 
 [gh-oarodriguez]: https://github.com/oarodriguez
+
 [poetry]: https://python-poetry.org

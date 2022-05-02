@@ -1,14 +1,14 @@
 [tool.poetry]
-name = "pyproject"
-version = "2021.3.0.dev0"
-description = "A template for your Python project. It uses Poetry as a dependency manager and Apache 2.0 as its license."
+name = "seleniumapps"
+version = "2022.1.0"
+description = "A collection of apps that use the Selenium library."
 license = "Apache-2.0"
 authors = [
   "Omar Abel Rodríguez-López <oarodriguez.mx@gmail.com>"
 ]
 readme = "README.md"
-homepage = "https://github.com/oarodriguez/python-project"
-repository = "https://github.com/oarodriguez/python-project"
+homepage = "https://github.com/oarodriguez/seleniumapps"
+repository = "https://github.com/oarodriguez/seleniumapps"
 classifiers = [
   "Development Status :: 1 - Planning",
   "Intended Audience :: Developers",
@@ -31,7 +31,7 @@ classifiers = [
 ]
 
 packages = [
-  { include = "pyproject", from = "src" }
+  { include = "seleniumapps", from = "src" }
 ]
 
 [tool.poetry.dependencies]
@@ -86,7 +86,7 @@ source = ["src"]
 [tool.coverage.run]
 parallel = true
 branch = true
-source = ["pyproject"]
+source = ["seleniumapps"]
 
 [tool.coverage.report]
 show_missing = true

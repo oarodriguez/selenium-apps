@@ -13,16 +13,16 @@
 # import os
 # import sys
 # sys.path.insert(0, os.path.abspath('.'))
-import pyproject
+import seleniumapps
 
 # -- Project information -----------------------------------------------------
 
-project = pyproject.metadata["name"]
-copyright = f"2021, {pyproject.__author__}"
-author = f"{pyproject.__author__}"
+project = seleniumapps.metadata["name"]
+copyright = f"2021, {seleniumapps.__author__}"
+author = f"{seleniumapps.__author__}"
 
 # The full version, including alpha/beta/rc tags
-release = pyproject.__version__
+release = seleniumapps.__version__
 
 # -- General configuration ---------------------------------------------------
 
