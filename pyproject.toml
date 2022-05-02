@@ -7,8 +7,8 @@ authors = [
   "Omar Abel Rodríguez-López <oarodriguez.mx@gmail.com>"
 ]
 readme = "README.md"
-homepage = "https://github.com/oarodriguez/seleniumapps"
-repository = "https://github.com/oarodriguez/seleniumapps"
+homepage = "https://github.com/oarodriguez/selenium-apps"
+repository = "https://github.com/oarodriguez/selenium-apps"
 classifiers = [
   "Development Status :: 1 - Planning",
   "Intended Audience :: Developers",
