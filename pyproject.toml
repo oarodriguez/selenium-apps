@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "seleniumapps"
-version = "2022.1.0"
+version = "2022.2.0.dev0"
 description = "A collection of apps that use the Selenium library."
 license = "Apache-2.0"
 authors = [
